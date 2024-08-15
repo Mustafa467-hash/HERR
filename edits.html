@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+         .video{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+            max-width: 1100px;
+            margin: auto;
+            
+            video{
+                width: 254px;
+                height: 330px;
+                object-fit: cover;
+                box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+                border-radius: 10px;
+                cursor: pointer;
+                transition: transform 0.3s ease-out;
+                display: inline-block;
+                margin: 10px;
+            }
+            
+            video:hover {
+                transform: scale(1.1);
+                box-shadow: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="letters.html">Letters</a></li>
+            <li><a href="poetry.html">Poetry</a></li>
+            <li><a href="short-notes.html">Short Notes</a></li>
+            <li><a href="edits.html">Edits</a></li>
+        </ul>
+    </nav>
+
+    <div class="video">
+        <video src="edit-1.mp4" controls></video>
+        <video src="edit-2.mp4" controls></video>
+        <video src="edit-3.mp4" controls></video>
+        <video src="edit-4.mp4" controls></video>
+        <video src="edit-5.mp4" controls></video>
+        <video src="edit-6.mp4" controls></video>
+        <video src="edit-7.mp4" controls></video>
+        <video src="edit-8.mp4" controls></video>
+    </div>
+
+
+
+
+    <div class="footer">
+        <p>&#169; Mustafa Rashid</p>
+    </div>
+    
+</body>
+</html>
